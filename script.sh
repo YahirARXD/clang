@@ -1,6 +1,6 @@
 apt update -y
 apt install clang -y
-echo "g++ -g /sdcard/c/*.cpp && echo 'compilado'" >> $HOME/../usr/bin/cc
+echo "g++ -g /sdcard/c/*.cpp && "g++ -g /sdcard/c/*.cpp && echo 'compilado'" >> $HOME/../usr/bin/cc
 chmod 777 $HOME/../usr/bin/cc
 termux-setup-storage
 echo "Creo  que todo esta listo 💗"
